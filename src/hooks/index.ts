@@ -67,3 +67,6 @@ export const useTheme = () => {
 
   return { theme, toggleTheme };
 };
+
+// Export animation hooks
+export { useScrollAnimation, useInteractiveCard, useParticleCanvas } from './useAnimations';
